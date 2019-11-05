@@ -1,0 +1,43 @@
+head {
+	font-family: "georgia";
+	font-size: 10vw;
+}
+body {
+	background-image: url("images/space.jpg");
+	color: white;
+	font-family: "helvetica";
+}
+
+table {
+	width: 100%;
+	border: 1px solid white;
+	font-size: 6;
+}
+
+tr, td, th {
+	height: 50px;
+	border: 1px solid white;
+}
+
+.first {
+	width: 400px;
+	text-align: center;
+}
+
+h1,h2, p {
+	text-align: center;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
+	width: auto;
+}
+
+.second {
+	width: auto;
+	text-align: center;
+	height: 300px;
+}
