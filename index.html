@@ -2,26 +2,27 @@
 <html>
 	<head>
 		<nav>
-			<table>
-				<tr>
-					<td><a href="characters.html">CHARACTERS</a></td>
-					<td><a href="movies.html">MOVIES</a></td>
-					<td><a href="news.html">NEWS</a></td>
-				</tr>
-			</table>
+			<a class="active" href="#">HOME</a> 
+			<a href="characters.html">CHARACTERS</a>
+			<a href="movies.html">MOVIES</a>
+			<a href="news.html">NEWS</a>
 		</nav>
 		<link rel="stylesheet" href="styles.css" />
+		<hr>
 	</head>
 
 	<body>
-		<h1>MCUpdates</h1>
-			<br>
+		<div>
+			<h1>MCUpdates</h1>
 			<img id="logo" src="images/marvel_studios_logo.png" alt="Marvel 10th logo">
-			<br>
-			<p>↓ (below is where the timer will go) ↓</p>
-			
+		</div>
+		<div>			
+			<p>↓ (below is where the timer will go) ↓</p>		
 			<img id="timer" src="images/countdown_timer.gif">
-		<h2>Latest News</h2>
+		</div>
+		<hr>
+		<div>
+			<h2>Latest News</h2>
 			<ul>
 				<li>MCU announces new Disney plus TV shows:</li>
 				<ul>
@@ -34,48 +35,108 @@
 				<li>New Black Widow Teaser Trailer released</li>
 				<li>Spider-Man rejoins the Marvel Cinematic Universe</li>
 				<li>Avengers: Endgame becomes the top grossing film of all time</li>
-			</ul>
-			
-		<h2>Popular characters</h2>
-			<table>
-				<tr>
-					<th>Spider-Man</th>
-					<th>Iron Man</th>
-					<th>Thor</th>
-					<th>Captain America</th>
-					<th>Hulk</th>
-					<th>Nick Fury</th>
-				</tr>
-				<tr>
-					<td><img src="images/Characters/spider_man.png" alt="Spider-Man"></td>
-					<td><img src="images/Characters/iron_man.png" alt="Iron Man"></td>
-					<td><img src="images/Characters/thor.png" alt="Thor"></td>
-					<td><img src="images/Characters/captain_america.png" alt="Captain America"></td>
-					<td><img src="images/Characters/hulk.png" alt="Hulk"></td>
-					<td><img src="images/Characters/nick_fury.png" alt="Nick Fury"></td>
-				</tr>
-			</table>
-			
-		<h2>Recent Films</h2>
-			<table>
-				<tr>
-					<th>Spider-Man: Far From Home</th>
-					<th>Avengers: Endgame</th>
-					<th>Captain Marvel</th>
-					<th>Ant-Man and the Wasp</th>
-					<th>Avengers: Infinity War</th>
-					<th>Black Panther</th>
-				</tr>
-				<tr>
-					<td><img src="images/Movies/Spider-Man_Far_From_Home.jpg" alt="SpiderManFFH"></td>
-					<td><img src="images/Movies/Avengers_Endgame.jpg" alt="Endgame"></td>
-					<td><img src="images/Movies/Captain_Marvel.jpg" alt="CaptainMarvel"></td>
-					<td><img src="images/Movies/Ant-Man_and_the_Wasp.jpg" alt="AntMan"></td>
-					<td><img src="images/Movies/Avengers_Infinity_War.jpg" alt="InfinityWar"></td>
-					<td><img src="images/Movies/Black_Panther.jpg" alt="BlackPanther"></td>
-				</tr>
-			</table>
-			<br>
-		<img id="bottom_logo" src="images/spiderman_logo.png">
+				</ul>
+		</div>
+		<hr>
+		<div>
+			<h2>Popular characters</h2>
+			<div class="gallery">
+				<div class="responsive">
+					<div class="desc">Spider Man</div>
+					<div class="images">
+						<img src="images/Characters/spider_man.png" alt="Spider-Man">
+					</div>
+				</div> 
+				
+				<div class="responsive">
+					<div class="desc">Iron Man</div>
+					<div class="images">
+						<img src="images/Characters/iron_man.png" alt="Iron Man">
+					</div>
+				</div>
+					
+				<div class="responsive">
+					<div class="desc">Thor</div>
+					<div class="images">
+						<img src="images/Characters/thor.png" alt="Thor">
+					</div>
+				</div>
+					
+				<div class="responsive">
+					<div class="desc">Captain America</div>
+					<div class="images">
+						<img src="images/Characters/captain_america.png" alt="Captain America">
+					</div>
+				</div>
+					
+				<div class="responsive">
+					<div class="desc">Hulk</div>
+					<div class="images">
+						<img src="images/Characters/hulk.png" alt="Hulk">
+					</div>
+				</div>
+
+				<div class="responsive">
+					<div class="desc">Nick Fury</div>
+					<div class="images">
+						<img src="images/Characters/nick_fury.png" alt="Nick Fury">
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<hr>
+		<div>
+			<h2>Recent Films</h2>
+			<div class="gallery">
+				<div class="responsive">
+					<div class="desc">Spider-Man: Far From Home</div>
+					<div class="images">
+						<img src="images/Movies/Spider-Man_Far_From_Home.jpg" alt="SpiderManFFH">
+					</div>
+				</div> 
+						
+				<div class="responsive">
+					<div class="desc">Avengers: Endgame</div>
+					<div class="images">
+						<img src="images/Movies/Avengers_Endgame.jpg" alt="Endgame">
+					</div>
+				</div>
+						
+				<div class="responsive">
+					<div class="desc">Captain Marvel</div>
+					<div class="images">
+						<img src="images/Movies/Captain_Marvel.jpg" alt="CaptainMarvel">
+					</div>
+				</div>
+					
+				<div class="responsive">
+					<div class="desc">Ant-Man and the Wasp</div>
+					<div class="images">
+						<img src="images/Movies/Ant-Man_and_the_Wasp.jpg" alt="AntMan">
+					</div>
+				</div>
+						
+				<div class="responsive">
+					<div class="desc">Avengers: Infinity War</div>
+					<div class="images">
+						<img src="images/Movies/Avengers_Infinity_War.jpg" alt="InfinityWar">
+					</div>
+				</div>
+	
+				<div class="responsive">
+					<div class="desc">Black Panther</div>
+					<div class="images">
+						<img src="images/Movies/Black_Panther.jpg" alt="BlackPanther">
+					</div>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
 	</body>
+	<footer>
+		<a link="index.html">
+			<img id="bottom_logo" src="images/spiderman_logo.png">
+		</a>
+	</footer>
 </html>
