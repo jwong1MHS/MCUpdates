@@ -16,13 +16,13 @@ var x = setInterval(function() {
     var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
-    // Output the result in an element with id="demo"
-    document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-	+ minutes + "m " + seconds + "s ";
-	
+    // Output the result in an element with id="myTimer"
+    document.getElementById("myTimer").innerHTML = days + "d " + hours + "h "
+	    + minutes + "m " + seconds + "s ";
+
     // If the count down is over, write some text 
 	if (distance < 0) {
 		clearInterval(x);
-		document.getElementById("demo").innerHTML = "EXPIRED";
+		document.getElementById("myTimer").innerHTML = "Movie Up!";
 	}
 }, 1000);
