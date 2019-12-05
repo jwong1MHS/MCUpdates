@@ -1,24 +1,43 @@
-nav{
+nav {
 	width: 100%;
 	overflow: auto;
+	border:1px solid #ccc;
+    border-width: 1px 0;
 }
   
 nav a {
-	float: left;
 	padding: 12px;
 	color: white;
-	text-decoration: none;
 	font-size: 30px;
+	width: 24%;
+	text-align: center;
+	display: inline-block;
 }
   
 nav a:hover {
 	background-color: #000;
 }
 
+img {
+	margin: 2vw;
+}
+
 .active {
 	background-color: #4CAF50;
 }
 
+
+.image {
+	border: 1px white;
+}
+
+
+
+
+#nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
 
 
 a:link, a:visited {
@@ -30,6 +49,27 @@ a:hover, a:active {
 	text-decoration: underline;
 	color: gray;
 }
+
+article {
+	display: inline-block;
+	font-size: 1.5vw;
+	width: 80%;
+} 
+
+fieldset {
+	height: 240px;
+	text-align: left;
+
+}
+
+#images {
+	width: 25%;
+}
+
+.artcont{
+	text-align:center;
+	display:inline-block;
+} 
 
 body {
 	background-image: url("images/space.jpg");
@@ -43,8 +83,18 @@ h1 {
 	text-align: center;
 }
 
+#header:hover {
+	text-decoration: none;
+	color: white;
+}
+
 h2 {
 	font-size: 2vw;
+	text-align: center;
+}
+
+h5 {
+	font-size: 1.5vw;
 	text-align: center;
 }
 
@@ -52,6 +102,16 @@ p {
 	font-size: 1vw;
 	text-align: center;
 }
+
+#demo {
+	font-size: 5vw;
+}  
+
+.news {
+	font-size: 1.5vw;
+	text-align: left;
+}
+
 
 ul {
 	font-size: 1.5vw;
@@ -118,12 +178,21 @@ div.desc {
 		margin: 6px 0;
 		font-size: 2vw;
 	}
+
+	nav a {
+		width: 49%;
+	}
+
 	h1 {
 		font-size: 4vw;
 	}
 	
 	h2 {
 		font-size: 3vw;
+	}
+
+	h5 {
+		font-size: 2vw;
 	}
 	
 	p {
@@ -134,6 +203,10 @@ div.desc {
 	ul {
 		font-size: 2.5vw;
 	}
+
+	article {
+		font-size: 2vw;
+	}
 }
   
 @media only screen and (max-width: 500px) {
@@ -141,6 +214,11 @@ div.desc {
 		width: 100%;
 		font-size: 4vw;
 	}
+
+	nav a {
+		width: 100%;
+	}
+
 	h1 {
 		font-size: 6vw;
 	}
@@ -149,6 +227,10 @@ div.desc {
 		font-size: 5vw;
 	}
 	
+	h5 {
+		font-size: 3vw;
+	}
+
 	p {
 		font-size: 4vw;
 		text-align: center;
@@ -157,10 +239,20 @@ div.desc {
 	ul {
 		font-size: 4.5vw;
 	}
+
+	article {
+		font-size: 3vw;
+	}
 }
   
 .clearfix:after {
 	content: "";
 	display: table;
 	clear: both;
+}
+
+
+.legend {
+	text-align: left;
+	font-size: 1.5vm;
 }
